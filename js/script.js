@@ -64,7 +64,7 @@ function calcular(){
 			if(dia<valor1){
 				resmes = resmes - 1;
 				resdias = resdias + cantidaddias(valor2,valor3);
-				window.alert(cantidaddias(valor2,valor3));
+				
 
 			}
 			if (resmes<0) {
