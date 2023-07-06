@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <main>
+    <div class="contenedor">
+      <div class="ingreso" id="ingresoadv">
+        <div>
+          <div class="titulo" id="texto1"><span>Day</span></div>
+          <div class="campo"><input id="campo1" type="number" placeholder="DD"></div>
+          <div class="adv" id="textrojo1"><span id="validar"></span></div>
+        </div>
+        <div>
+          <div class="titulo" id="texto2"><span>Month</span></div>
+          <div class="campo"><input id="campo2" type="number" placeholder="MM"></div>
+          <div class="adv"  id="textrojo2"><span>This field is required</span></div>
+        </div>
+        <div>
+          <div class="titulo" id="texto3"><span>Year</span></div>
+          <div class="campo"><input id="campo3" type="number" placeholder="YYYY"></div>
+          <div class="adv" id="textrojo3"><span>This field is required</span></div>
+        </div>
+      </div>
+      <div class="linea">
+        <div onclick="calcular()" class="circulo">
+          <img src="assets/images/icon-arrow.svg" alt="imagenflecha">
+        </div>
+      </div>
+      <div class="contresultado">
+        <div><span class="morado" id="res1"></span><span class="negrita">years</span></div>
+        <div><span class="morado" id="res2"></span><span class="negrita">months</span></div>
+        <div><span class="morado" id="res3"></span><span class="negrita">days</span></div>
+      </div>
+    </div>
+  </main>
+
+    
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/gabrielveliz" target="_blank">Gabriel Veliz</a>.
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
